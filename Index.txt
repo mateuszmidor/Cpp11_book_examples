@@ -1,0 +1,42 @@
+Chapter01 - book structure, C compatibility, C++ history, C++ applications in industry.
+Chapter02 - hello world! Types, variables, flow control, translation units, exceptions.
+Chapter03 - classes, containers, virtual functions, move, templates, functors, aliases.
+Chapter04 - stdlib overview, strings, cin/cout, containers, iterators algorithms.
+Chapter05 - unique_ptr/shared_ptr, thread, lock, async, chrono, tuple, regex, random, intlimits.
+Chapter06 - basic types; char/int/float, alignof, var declaration/scope/initiation, auto/decltype, lifetime.
+Chapter07 - pointers, C arrays, C strings, l-value/r-value references.
+Chapter08 - struct, struct vs class/array, POD, union, enum.
+Chapter09 - if, switch/case, for, do-while, continue/break, goto, // code comments.
+Chapter10 - implementing a calc, C++ operators table/priority, constexpr, literal types, conversions/promotions.
+Chapter11 - logical/bit/conditional operators, ++, --, free memory management, overloading new, lambda, *_cast.
+Chapter12 - functions, [[noreturn]], pre/post conditions, #macros, pragma.
+Chapter13 - exceptions, error codes, basic/strong/nothrow guarantee, RAII, noexcept, try...catch, exit/abort/terminate.
+Chapter14 - namespaces, using namespace std, using std::cout, Argument-Dependent-Lookup.
+Chapter15 - translation units, linking, headers, one-definition rule, program exiting (exit, abort, throw, main return).
+Chapter16 - abstraction techniques; class in details, ctor, dctor, methods, mutable, operator overloading.
+Chapter17 - resource management; calling ctor/dctor, object initialization, copying, moving, slicing, =delete, =default.
+Chapter18 - operator overloading, type conversion, explicit, literal types.
+Chapter19 - special operators [], (), ->, ++, --, new, delete, friend.
+Chapter20 - inheritance, class hierarchy, virtual functions, override, final, public/protected/private, member pointers.
+Chapter21 - discussion on how to design a class hierarchy, multiple inheritance, virtual base class.
+Chapter22 - runtime type info; dynamic_cast, visitors, type_info, typeid.
+Chapter23 - function templates, class templates.
+Chapter24 - generic programming; algorithms, concepts discovery.
+Chapter25 - template specialisation.
+Chapter26 - template instantiation, name binding.
+Chapter27 - template hierarchies, mixins.
+Chapter28 - metaprogramming; type functions(types as input params), type predicates, traits, conditional, enable_if, variadic templates.
+Chapter29 - multidimmensional matrix project.
+Chapter30 - stdlib overview - headers and their contents.
+Chapter31 - STL containers walk-through.
+Chapter32 - STL algorithms.
+Chapter33 - iterators, functors, predicates.
+Chapter34 - array, bitset, vector<bool>, unique/shared/weak_ptr, allocator.
+Chapter35 - chrono, ratio, type_traits, type modifiers, move, forward, swap.
+Chapter36 - string.
+Chapter37 - regex.
+Chapter38 - io streams.
+Chapter39 - locale; put_time, numpunct, own facet.
+Chapter40 - numeric_limits, valarray, random.
+Chapter41 - concurrency, memory model, atomic, lock-free programming.
+Chapter42 - thread, packaged_task, promise-future, mutex, lock, conditional_variable, call_once
