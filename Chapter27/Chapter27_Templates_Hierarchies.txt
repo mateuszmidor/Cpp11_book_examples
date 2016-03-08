@@ -1,0 +1,19 @@
+This chapter deals with advantages of using realtime vs compiletime polimorpysm  (virtual functions vs templates).
+
+Rady:
+1. Jeśli musisz wyrazić w kodzie jakiś ogólny pomysł, zastanów się, czy zaprezentować go jako sablon, czy jako hierarchię klas.
+2. Szabon zazwyczaj zawiera wspólny kod dla różnych argumentów.
+3. Klasa abstrakcyjna może całkowicie ukryć szczegóły implementacyjne przed użytkownikiem.
+4. Nieregularne implementacje zazwyczaj najlepiej jest reprezentować jako klasy pochodne.
+5. Jeśli bezpośrednie używanie pamięci wolnej jest niemile widziane, to szablony mają przewagę nad hierarchiami klas.
+6. Szablony mają przewagę nad hierarchiami klas, gdy ważne jest rozwijanie w wierszu (dereferencja wskaźnika blokuje rozwijanie).
+7. Interfejsy szablonów łatwo się wyraża przy użyciu typów argumentów szablonów.
+8. Jeśli potrzebujesz rozstrzygania w czasie wykonywania, musisz użyć hierarchii klas.
+9. Kombinacja szablonów i hierarchii klas jest często lepsza od rozwiązania opartego na tylko jednej z tych technik.
+10. Traktuj szablony jak generatory typów.
+11. Nie istnieje żadna domyślna relacja między dwiema klasami wygenerowanymi z tego samego szablonu(np. list<Square> nie jest pochodną list<Shape>).
+12. Nie mieszaj hierarchii klas z tablicami (np. nie iterować z wykorzystaniem tablicy wskaźników do klasy bazowej).
+13. Nie zamieniaj naiwnie w szablony dużych hierarchii klas.
+14. Za pomocą szablonu można dostarczyć bezpieczny typowo interfejs do pojedynczej (słabo typowanej) implementacji.
+15. Szablonów można używać do składania bezpiecznych typowo i kompaktowych struktur danych.
+16. Szablonów można używać do linearyzacji hierarchii klas (minimalizując zużycie pamięci i czas dostępu).
