@@ -1,0 +1,20 @@
+This chapter shortly describes atomics, memory model, lock-free programming.
+
+Rady:
+1. Używaj współbieżności w celu zwiększenia interaktywności i przepustowości.
+2. Pracuj na możliwie najwyższym poziomie abstrakcji.
+3. Lepiej używać obiektów typu packed_task i future zamiast thread i mutex.
+4. Przedkładaj obiekty typu mutex i condition_variable nad bezpośrednie użycie obiektów typu atomic, z wyjątkiem tworzenia prostych liczników.
+5. Unikaj jawnie współdzielonych danych.
+6. Traktuj procesy jako alternatywę dla wątków.
+7. Narzędzia współbieżności w bibliotece standardowej są bezpieczne pod względem typów.
+8. Model pamięci jest po to, by zaoszczędzić większości programistów myślenia o architekturze komputerów.
+9. Dzięki modelowi pamięci dla programisty pamięć ma takie właściwości, jakich można się naiwnie spodziewać.
+10. Osobne wątki uzyskujące dostęp do osobnych pól bitowych struktury mogą zakłócać się wzajemnie.
+11. Unikaj wyścigów do danych.
+12. Konstrukcje atomowe umożliwiają programowanie bez blokad.
+13. Programowanie bez blokad może być niezbędne dla uniknięcia zakleszczeń i zapewnienia każdemu wątkowi możliwości działania.
+14. Pozostaw programowanie bez blokad ekspertom.
+15. Pozostaw rozluźnione modele pamięci ekspertom.
+16. Specyfikator volatile informuje kompilator, że wartość obiektu może zostać zmieniona przez coś, co nie jest częścią programu.
+17. W języku C++ volatile nie jest mechanizmem synchronizacji.
