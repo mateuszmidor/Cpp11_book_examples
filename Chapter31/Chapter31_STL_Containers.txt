@@ -1,0 +1,42 @@
+This chapter describes STL containers. 
+
+Rady:
+1. Kontenery STL definiują sekwencje.
+2. Używaj wektora jako domyślnego kontenera.
+3. Operatory wstawiania, np. insert() i push_back(), często wydajniej działają na wektorach niż na listach.
+4. Do reprezentacji sekwencji, które prezz większość czasu są puste, używaj struktury forward_list.
+5. W kwestiach wydajności nie ufaj intuicji, tylko wykonuj testy.
+6. Nie wierz ślepo asymptotycznym miarom złożoności. Niektóre sekwencje są krótkie, przez co koszty poszczególnych operacji mogą być dramatycznie różne.
+7. Kontenery biblioteki STL są uchwytami do zasobów.
+8. Słownik map jest zazwyczaj implementowany jako drzewo czerwono-czarne.
+9. Słownik undordered_map jest tablicą mieszającą.
+10. Typy elementów kontenerów STL muszą udostępniać operacje kopiowania lub przenoszenia.
+11. Jeśli chcesz zachować polimorficzność, używaj kontenerów wskaźników lub wskaźników inteligentnych.
+12. Operacje porównywania powinny implementować ścisły porządek słaby (porządek niemalejący).
+13. Kontenery przekazuj przez referencję, a zwracaj przez wartość.
+14. Używaj notacji () dla rozmiarów oraz {} dla list elementów.
+15. Do prostego przeglądania kontenerów używaj zakresowej pętli for lub par iteratorów.
+16. Jeśli nie musisz modyfikować elementów kontenera, przeglądaj go przy użyciu iteratorów stałych.
+17. Używaj słowa kluczowego auto, aby uniknąć rozwlekłości i literówek poczas używania iteratorów.
+18. Używaj funkcji reserve(), aby zapobiec uszkodzeniu wskaźników i iteratorów do elementów.
+19. Nie zakładaj, że użyciefunkcji reserve() będzie korzystne pod względem wydajnościowym, tylko wykonaj testy, aby to sprawdzić.
+20. Używaj funkcji push_back() i resize() na kontenerach zamiast realloc() na tablicach.
+21. Nie używaj iteratorów wskazujących elementy w wektorach i kolejkach deque o zmiennym rozmiarze.
+22. W razie konieczności użyj funkcji reserve(), aby uczynić wydajność przewidywalną.
+23. Nie zakładaj, że operator [] wykonuje sprawdzanie zakresu.
+24. Jeśli potrzebujesz gwarancj sprawdzania zakresu, użyj funkcji at().
+25. Używaj funkcji emplace() jako wygodnej formy zapisu.
+26. Preferuj kompaktowe i ciągłe struktury danych.
+27. Używaj funkcji emplace() w celu uniknięcia wstępnej inicjacji elementów.
+28. Przeglądanie list "list" jest względnie powolne.
+29. Lista "list" zazwyczaj dokłada dodatkowe cztery słowa narzutu na element.
+30. Porządek elementów w kontenerze uporządkowanym jest zdefiniowany przez jego obiekt porównawczy (domyślnie <).
+31. Porządku elementów w kontenerze nieuporządkowanym (mieszającym) nie da się przewidzieć.
+32. Jeśli chcesz móc szybko wyszukiwać dane w dużych zbiorach danych, użyj kontenera nieuporządkowanego. 
+33. Używaj nieuporządkowanych kontenerów do przechwywania elementów nie mających naturalnego porządku (gdzie < nie ma sensu).
+34. Jeśli chcesz przeglądać elementy w określonym porządku, użyj uporządkowanego kontenera asocjacyjnego (np. map lub set).
+35. Spradź eksperymentalnie, czy Twoja funkcja mieszająca działa prawidłowo.
+36. Często dobrze sprawdzają się funkcje mieszające tworzone z połączenia standardowych funkcji mieszających dla elementów przy użyciu słowa wykluczającego.
+37. Często dobrym współczynnikiem zapełnienia jest 0.7.
+38. Interfejsom można definiować alternatywne interfejsy.
+39. Adaptacje kontenerów STL nie umożliwiają bezpośredniego dostępu do kontenerów, na podstawie których są zbudowane.
