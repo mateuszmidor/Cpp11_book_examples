@@ -1,0 +1,18 @@
+This chapter describes the book structure, introduces the C++ language, its history, applications, relation to C language.
+
+1. Przedstawiaj pomysły (myśli) bezpośrednio w kodzie, np. jako funkcje, klasy albo wyliczenia.
+2. Staraj się pisać elegancki i wydajny kod.
+3. Nie przesadzaj z abstrakcją.
+4. Przy projektowaniu koncentruj się na tworzeniu eleganckich i wydajnych abstrakcji, które najlepiej byłoby przedstawić w postaci bibliotek.
+5. Przedstawiaj relacje między pomysłami bezpośrednio w kodzie, np. przy użyciu parametryzacji albo hierarchii klas.
+6. Przedstawiaj niezależne od siebie pomysły w sposób niezależny w kodzie. Na przykład unikaj wzajemnych zależności między klasami.
+7. C++ to nie jest tylko obiektowy język programowania.
+8. C++ nie służy tylko do programowania ogólnego.
+9. Preferuj rozwiązania, które można kontrolować statycznie.
+10. Zasoby niech będą jawne (reprezentowane jako obiekty klas).
+11. Proste rzeczy wyrażaj w sposób prosty. (Powiedział, co wiedział... :))
+12. Używaj bibliotek, zwłaszcza biblioteki standardowej, zamiast próbować napisać wszystko od początku.
+13. Stosuj bogaty w typy styl programowania.
+14. Niskopoziomowy kod wcale nie musi być wydajny. Nie unikaj używania klas, szablonów i składników biblioteki standardowej z obawy przed zmniejszeniem wydajności.
+15. Jeśli dane mają niezmiennik, hermetyzuj go.
+16. C++ to nie jest C z kilkoma rozszerzeniami.
