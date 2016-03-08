@@ -1,0 +1,2 @@
+This chapter is a theory about how to make specialized algorithms generic and how concepts can help in describing the types accepted by given algorithm.
+Concepts are not part of C++11, so no examples here.
