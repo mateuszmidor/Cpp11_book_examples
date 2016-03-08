@@ -1,0 +1,10 @@
+1. Pozwól kompilatorowi/specjalizacji wygenerować potrzebne specjalizacje.
+2. Jeśli potrzebujesz precyzyjnej kontroli nad miejscem konkretyzacji, wykonuj ją jawnie.
+3. Jeśli optymalizujesz czas potrzebny na wygenerowanie spcjalizacji, dokonuj konkretyzacji jawnie.
+4. Unikaj subtelnych zależności kontekstowych w definicji szablonu.
+5. Nazwy używane w definicji szabonu muszą znajdować się w dostępnym zakresie albo dać się znaleźć poprzez wyszukiwanie wg agmentów (ADL).
+6. Utrzymuj niezmienny kontekst wiązania między miejscami konkretyzacji.
+7. Unikaj w pełni ogólnych szablonów, które mogą zostać znalezione w rocesie ADL.
+8. Aby uniknąć używania nieodpowiednich szablonów, używaj koncepcji/asercji statycznych.
+9. Ograniczaj zasięg ADL za pomocą deklaracji using.
+10. W razie potrzeby kwalifikuj nazwy z szablonowej klasy bazowej za pomocą -> lub T::.
