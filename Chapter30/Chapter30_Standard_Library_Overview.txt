@@ -1,0 +1,18 @@
+This chapter describes tools that are available from standard library. 
+
+Rady:
+1. Używaj narzędzi z biblioteki standardowej, aby zapewnić przenośność programu.
+2. Używaj narzędzi z biblioteki standardowej, aby zminmalizować koszty utrzymania.
+3. Używaj narzędzi z biblioteki standardowej jako bazy do budowy badziej rozbudowanych i wyspecjalizowanych bibliotek.
+4. Używaj narzędzi z biblioteki standardowej jako modelowego przykładu elastycznego i powszechnie używanego oprogramowania.
+5. Narzędzia biblioteki standardowej są zdefiniowane w przestrzeni nazw std i znajdują się w nagłówkach.
+6. Standardowy nagłówek biblioteki języka C X.h jest w języku C++ reprezentowany jako <cX>, np. <cmath>.
+7. Nie próbuj używać narzędzi z biblioteki standardowej bez dołączenia odpowiedniego nagłówka za pomocą dyrektywy #include.
+8. Aby skorzystać z zakresowej pętli for w odniesieniu do tablicy wbudowanej, należy dołączyć nagłówek <iterator>.
+9. Przedkładaj obsługę błędów opartą na wyjątkach nad obsługę opartą na zwracaniu kodów błędu.
+10. Zawsze przechwytuj exception& (w przypadku wyjątków z biblioteki standardowej i dotyczących wsparcia języka) oraz ... (w przypadku nieprzewidzianych wyjątków).
+11. Hierarchii wyjątków biblioteki standardowej można (ale nie jest to obowiązkowe) używać do tworzenia własnych typów wyjątków.
+12. W przypadku poważnych problemów wywołuj funkcję terminate()
+13. Często używaj asercji static_assert() i assert().
+14. Nie zakładaj, że funkcja assert() zawsze zostanie wykonana.
+15. Jeśli nie możesz używać wyjątków, rozważ możliwość użycia <system_error>.
